@@ -1,0 +1,49 @@
+.container {
+  transition: 0.5s;
+  position: absolute;
+  border-radius: 5px;
+  color: black;
+  background-color: var(--white_900);
+  right: -100%;
+  top: 100px;
+  width: 25%;
+  padding: 8px 16px;
+
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    h2 {
+      margin: 0;
+    }
+  }
+
+  .purchaseBtn {
+    cursor: pointer;
+    transition: 0.5s;
+    border: 1px solid var(--purple_450);
+    margin-top: 15px;
+    width: 100%;
+    padding: 8px 16px;
+    color: var(--white_900);
+    font-size: 17px;
+    border-radius: 5px;
+    background-color: var(--purple_450);
+  }
+
+  .purchaseBtn:hover {
+    background-color: var(--white_900);
+    color: var(--purple_450);
+  }
+}
+
+.show {
+  right: 0;
+}
+
+@media screen and (max-width: 400px) {
+  .container {
+    width: 90%;
+  }
+}

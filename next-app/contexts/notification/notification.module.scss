@@ -1,0 +1,47 @@
+.show {
+    top: 50px !important;
+}
+
+.notification {
+    transition: 0.3s;
+    background-color: var(--white_900);
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -50px;
+    z-index: 9999;
+    color: var(--black_900);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-radius: 5px;
+    align-items: center;
+    border: 1px solid var(--gray_450);
+    width: 20%;
+    gap: 8px;
+    box-shadow: -3px -5px 30px 6px rgba(0, 0, 0, 0.19);
+    -webkit-box-shadow: -3px -5px 30px 6px rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: -3px -5px 30px 6px rgba(0, 0, 0, 0.19);
+
+    div {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    p {
+        margin: 0 !important;
+
+    }
+
+    .closeIcon {
+        cursor: pointer;
+
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .notification {
+        width: 80%;
+    }
+}

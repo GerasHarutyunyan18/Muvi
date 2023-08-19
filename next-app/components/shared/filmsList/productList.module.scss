@@ -1,0 +1,22 @@
+.container {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+    .productItem {
+        width:18%;
+        margin-top: 20px;
+    }
+
+}
+
+@media screen and (max-width:400px) {
+    .container {
+        display: block;
+
+        .productItem {
+            margin-top: 10px;
+            width: 100%;
+        }
+    }
+}
