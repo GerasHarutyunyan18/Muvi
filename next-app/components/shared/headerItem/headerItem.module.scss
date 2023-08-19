@@ -1,0 +1,15 @@
+.headerItem {
+  padding: 15px 20px;
+
+  .link {
+    text-decoration: none;
+    font-size: 18px;
+    color: var(--black_900);
+    transition: 0.3s;
+  }
+
+  .link:hover {
+    color: var(--purple_450) !important;
+  }
+}
+

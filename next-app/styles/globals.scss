@@ -1,0 +1,40 @@
+body {
+  margin: 0 !important;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+html:root {
+  --blue_450: #91caff;
+  --blue_900: #001d4d;
+  --blue_600: #001e579f;
+  --blue_700: #002d64;
+  --white_900: #ffffff;
+  --purple_150: #b37feb;
+  --purple_450: #22075e;
+  --gray_450: #cccccc;
+  --gray_900: #858585;
+  --gray_300: #262626;
+  --black_900: #000000;
+  --purple_450: #722ed1;
+}
+
+
+::-webkit-scrollbar {
+  width: 5px;
+  border-radius: 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--gray_450);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--purple_150);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

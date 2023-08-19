@@ -1,0 +1,56 @@
+.userCard {
+  position: relative;
+  .userBtn {
+    transition: 0.3s;
+    border: 1px solid var(--gray_300);
+    height: 40px;
+    width: 40px;
+    align-items: center;
+    border-radius: 100%;
+    cursor: pointer;
+    position: relative;
+
+    p {
+      margin: 0;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      position: absolute;
+    }
+  }
+
+  .infoCard {
+    transition: 0.4s;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid var(--gray_300);
+    right: 0;
+    top: 45px;
+    background-color: var(--white_900);
+    border-radius: 5px;
+    position: absolute;
+    width: 150px;
+    .infoItem {
+      color: black;
+      margin: 0;
+      margin: 10px auto;
+    }
+
+    .logoutBtn {
+      border: 1px solid var(--gray_300);
+      transition: 0.3s;
+      cursor: pointer;
+      height: 30px;
+      width: 100%;
+    }
+  }
+
+  .close {
+    right: -200px;
+  }
+
+  .userBtn:hover,
+  .logoutBtn:hover {
+    background-color: var(--purple_450);
+  }
+}
